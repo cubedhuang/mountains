@@ -150,11 +150,11 @@ function draw(delta) {
   drawClouds(delta);
   drawMountains(delta);
 
-  ctx.textAlign = "right";
-  ctx.textBaseline = "bottom";
-  ctx.fillStyle = "oklch(0.8 0.1 250)";
-  ctx.font = "16px sans-serif";
-  ctx.fillText(Math.round(1 / delta), canvas.width - 10, canvas.height - 10);
+  //   ctx.textAlign = "right";
+  //   ctx.textBaseline = "bottom";
+  //   ctx.fillStyle = "oklch(0.8 0.1 250)";
+  //   ctx.font = "16px sans-serif";
+  //   ctx.fillText(Math.round(1 / delta), canvas.width - 10, canvas.height - 10);
 
   dx += delta * 100;
 }
