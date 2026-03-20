@@ -2,7 +2,7 @@
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
-const RECT_SIZE = 15;
+const RECT_SIZE = 10;
 let dx = 1000;
 
 noise.seed(Math.random());
